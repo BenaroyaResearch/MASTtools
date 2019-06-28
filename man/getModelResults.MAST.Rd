@@ -15,7 +15,7 @@ getModelResults.MAST(
 
 \item{contrast}{character, the name of the contrast for which to determine significance (and possibly logFC).}
 
-\item{contrast.type}{character, the type of contrast being extracted. Must be specified, as logFC can only be extracted for binary and/or continuous contrasts. Fro categorical contrasts, only significance values are extracted.}
+\item{contrast.type}{character, the type of contrast being extracted. Must be specified, as logFC can only be extracted for binary and/or continuous contrasts. For categorical contrasts, only significance values are extracted. Options are "continuous", "binary", "categorical"; partial matches allowed.}
 
 \item{method.p_adjust}{character, the method to be used for calculating adjusted p-values. Passed to \code{p.adjust}. Defaults to "BH".}
 
